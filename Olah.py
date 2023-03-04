@@ -61,8 +61,5 @@ def golpermusim(dataset):
     data=dataset.copy()
     return data.groupby("Season").sum()
 
-data=pd.read_csv("Dataset/Klasmen 22 musim.csv")
-print(golpermusim(data).index)
-
 
 
