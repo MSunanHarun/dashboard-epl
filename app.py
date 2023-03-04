@@ -11,10 +11,10 @@ from Olah import golpermusim
 
 import warnings
 
-klasmen_all_team=cekfloat(pd.read_csv("Dataset/Klasmen_all.csv"))
-klasmen_22_musim=cekfloat(pd.read_csv("Dataset/Klasmen 22 musim.csv"))
-juara_permusim=cekfloat(pd.read_csv("Dataset/Juara Permusim.csv"))
-all_juara=cekfloat(pd.read_csv("Dataset/All Juara.csv"))
+klasmen_all_team=cekfloat(pd.read_csv("Klasmen_all.csv"))
+klasmen_22_musim=cekfloat(pd.read_csv("Klasmen 22 musim.csv"))
+juara_permusim=cekfloat(pd.read_csv("Juara Permusim.csv"))
+all_juara=cekfloat(pd.read_csv("All Juara.csv"))
 
 st.title("Dashboard EPL 2000-2022")
 tab1,tab2,tab3,tab4,tab5=st.tabs(["Klasmen Semua Klub","Juara Tiap Musim","Perolehan Tropi","Klasmen Per Musim","Data Per Klub"])
